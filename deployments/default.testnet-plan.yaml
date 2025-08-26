@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: ZeroKnowledgeProofSystem
+            expected-sender: ST3AG0QGR2CGHSKQ208T2EDJ4NZFHJMB45TD0NJXE
+            cost: 50840
+            path: "contracts\\ZeroKnowledgeProofSystem.clar"
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.2"
