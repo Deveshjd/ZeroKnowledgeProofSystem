@@ -237,7 +237,8 @@ const verifyProof = async (proofHash) => {
 
 ## 📊 Contract Address Details
 contract id :ST3AG0QGR2CGHSKQ208T2EDJ4NZFHJMB45TD0NJXE.ZeroKnowledgeProofSystem
-![alt text](<Screenshot 2025-08-26 121908.png>)
+<img width="1360" height="596" alt="Screenshot 2025-08-26 121908" src="https://github.com/user-attachments/assets/7ea685df-55aa-44ae-8441-7b4c8b9fbd43" />
+
 
 
 ### Development Environment
